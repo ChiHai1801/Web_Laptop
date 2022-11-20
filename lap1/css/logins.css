@@ -1,0 +1,57 @@
+.container {
+    border: 2px solid;
+    width: 25pc;
+    height: auto;
+    /* text-align: unset; */
+    margin-left: 40pc;
+    margin: 0 auto;
+}
+
+.d-flex.justify-content-center.h-100 {
+    background: darkgrey;
+}
+
+input.form-control {
+    width: 20pc;
+    height: 2pc;
+}
+
+.card-header {
+    border: 1px solid;
+    background: ghostwhite;
+    padding: 5px 5px;
+    margin: 3px;
+}
+
+.card-header h3{
+    text-align: center;
+}
+
+.card-footer {
+    border: 1px solid;
+    background: ghostwhite;
+    margin-top: 5.5pc;
+    padding: 3px;
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 1.5pc;
+    margin-left: 3pc;
+}
+
+.input-group.form-group {
+    margin-top: 1pc;
+}
+
+input[type="checkbox"] {
+    margin-top: 1pc;
+}
+
+input.btn.float-right.login_btn {
+    margin-top: 1.5pc;
+    float: right;
+    margin-right: 1pc;
+}
+
+

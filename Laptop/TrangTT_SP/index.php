@@ -1,0 +1,9 @@
+<?php
+include('../TrangTT_SP/SP/header.php');
+?>
+<?php
+include('../TrangTT_SP/main.php');
+?>
+<?php
+include('../TrangTT_SP/SP/footer.php');
+?>

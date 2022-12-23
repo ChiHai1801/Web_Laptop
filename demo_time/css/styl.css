@@ -1,0 +1,357 @@
+    body {
+        margin: 0;
+        padding: 0;
+     }
+
+     .wrapper{
+        /* border: 1px solid #000; */
+        height: auto;
+        width: 95%;
+        margin:0 auto;
+     }
+
+
+    /* sidebar cố định header*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-header{
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* background: #919191; */
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+header.sticky{
+    background: rgb(88, 85, 85);
+    opacity: 0.9;
+    padding: 15px 0px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+header.sticky #main-menu a {
+    color: #000;
+}
+
+header.sticky #logo {
+    color: #000;
+}
+
+#logo{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: block;
+}
+
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#main-menu{
+    display: flex;
+}
+
+ul#main-menu a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-weight: bold;
+}
+
+#banner{
+    /* background: url(images/001.jfif); */
+    min-height: 100px;
+    width: 100%;
+    background-size: cover;
+}
+
+    /*------------- kết thúc--------------------*/
+
+    /*-------trang chi tiết sản phẩm--------*/
+     .wrapper_chitiet{
+        height: auto;
+        width: 90%;
+        margin:0 auto;
+     }
+
+     
+     .hinhanh_sanpham{
+        float: left;
+        width: 25%;
+     }
+
+     .chitiet_sanpham{
+        float: left;
+        width: 60%;
+        margin: 0 auto;
+     }
+
+     /* .chitiet_sanpham p{ */
+        /* margin-bottom: 10px; */
+        /* margin-left: 2px; */
+     /* } */
+
+     .thongtin_sanpham{
+        float: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 2pc;
+     }
+
+     .thongso_sanpham{
+        margin: 0 auto;
+        float: left;
+        margin-bottom: 2pc;
+        margin-left: 2pc;
+     }
+
+     .thongso_sanpham h3{
+        margin: 0 auto;
+        margin-bottom: 1pc;
+        font-size: 25px;
+        font-weight: bold;
+     }
+     /*---------kết thúc-----------*/
+
+     /* phần giỏ hàng*/
+     input.themgiohang{
+        border: none;
+        background: brown;
+        color: #fff;
+        padding: 12px;
+        font-size: 15px;
+        cursor: pointer;
+     }
+     /*nút tăng giảm số lượng trong giỏ hàng*/
+     i.fa-solid.fa-plus {
+        font-size: 18px;
+        color: #000;
+        padding: 3px;
+    }
+    i.fa-solid.fa-plus:hover {
+        color: brown;
+    }
+
+    i.fa-solid.fa-minus{
+        font-size: 18px;
+        color: #000;
+        padding: 3px;
+    }
+
+    i.fa-solid.fa-minus:hover{
+        color: brown;
+    }
+
+    /*--------------kết thúc-------------*/
+
+    .menu{
+        /* border: 1px solid #1aff8c; */
+        height: 50px;
+        width: 100%;
+        background:#a5b3a5ef ;
+    }
+
+    ul.list_menu {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        width: 60%;
+        line-height: 27px;
+    }
+
+    ul.list_menu li {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    ul.list_menu li:hover {
+        background: rgb(197, 195, 193);
+    }
+
+    ul.list_menu li a {
+        color: red;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #main{
+        height: 400px;
+        width: 100%;
+    }
+
+    /* nút chuyển trang*/
+    .list_trang{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    ul.list_trang li{
+        float: left;
+        padding: 5px 13px;
+        margin: 5px;
+        background: burlywood;
+        display: block;
+    }
+
+    ul.list_trang li a{
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    /*   kết thúc   */
+
+    /* bắt đầu thanh sidebar nằm bên phải*/
+    .sidebar{
+        /* border: 1px solid #b4afa2; */
+        height: auto;
+        width: 20%;
+        margin-top: 5px;
+        background: #f3ecd9;
+        position: fixed;
+    }
+
+    .sidebar #list{
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        background: rgb(67, 67, 67);
+        user-select: none;
+    }
+
+    .sidebar ul a{
+        display: block;
+        line-height: 40px;
+        font-size: 18px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar ul li a{
+        margin-right: 16px;
+    }
+
+    .sidebar ul li:hover a{
+        padding-left: 50px;
+    }
+
+    ul.list_sidebar {
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    ul.list_sidebar li {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    /* ul.list_sidebar li:hover { */
+        /* background: rgb(155, 151, 146); */
+    /* } */
+
+    ul.list_sidebar li a {
+        color: rgb(80, 74, 74);
+        text-decoration: none;
+        text-align: left;
+        display: block;
+    }
+
+    .maincontent{
+        height: auto;
+        width: 78%;
+        margin-top: 5px;
+        margin-left: 5px;
+        float: right;
+    }
+
+    ul.product_list {
+        
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    ul.product_list li img {
+        height: 200px;
+    }
+
+    ul.product_list li {
+        width: 18%;
+        border: 1px solid #ddd;
+        background: aliceblue;
+        margin: 7px;
+        float: left;
+        height: auto;
+    }
+
+    ul.product_list li img {
+        width: 100%;
+    }
+
+    ul.product_list li a {
+        text-decoration: none;
+    }
+
+    p.title_product {
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    p.price_product {
+        text-align: center;
+        color: chocolate;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    /* phần footer*/
+    .footer{
+        border: 1px solid #ff1a8c;
+        height: 150px;
+        width: 100%;
+        background:#90ba93 ;
+    }
+
+    p.footer_copyright {
+        text-align: center;
+        color: red;
+    }

@@ -1,0 +1,160 @@
+    /*---- góp ý -----*/
+
+    .table {
+        width: 60%;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 29px 29px 0px;
+        margin: 0 auto;
+        top: -50px;
+        
+     }
+    
+     .register{
+        padding-top: 30px;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
+    .support__title{
+        margin:30px 10% ;
+        text-align: center;
+    }
+
+    .form-row{
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .form-row input ,textarea{
+        display: block;
+        border: 1px solid #7fad39;
+        height: 30px;
+        width: 100%;
+        
+    }
+
+    .form-row input{
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .form-row textarea{
+        max-width: 100%;
+        min-width: 100%;
+        
+        min-height: 100px;
+    }
+    .form-row textarea:focus{
+        border: 1px solid #e6ff04;
+        height: 30px;
+        width: 100%;
+        background-color: #dff5e1; 
+        outline: none;
+    }
+    .form-row input:focus{
+        border: 1px solid #e6ff04;
+        height: 30px;
+        width: 100%;
+        background-color: #dff5e1; 
+        outline: none;
+        
+    }
+    .form__submit input{
+        display: block;
+        background-color: #7fad39;
+        border: none;
+        height: 40px;
+        width: 100px;
+        font-size: 15pt;
+        padding: 0 4px 0 4px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        color:#fff;
+    }
+    .form__submit input:hover{
+        background-color: #5ad823;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .form-row.success input {
+        border: 1px solid rgb(0, 255, 0);
+    }
+    .form-row.success textarea {
+        border: 1px solid rgb(0, 255, 0);
+    }
+
+    /*--------------responsive cho phần nội dung trang liên hệ--------------*/
+    /*---- kích thước tablet-----*/
+    @media only screen and (max-width: 1023px) {
+        .two__column__one__row{ /*đưa về 1 cột */
+            
+            grid-template-areas: 
+            'first-cell'
+            'second-cell'
+            ;
+            grid-template-columns: 100%;
+        }
+        .contact__info{
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+    /*---- kích thước phone-----*/
+    @media only screen and (max-width: 600px) {
+        .two__column__one__row{ /*đưa về 1 cột */
+            
+            grid-template-areas: 
+            'first-cell'
+            'second-cell'
+            ;
+            grid-template-columns: 100%;
+        }
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        /* max-width: 1024px; */
+        margin: 0 auto;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-areas: "header-cell" "nav-cell" "main-cell" "footer-cell";
+      
+      }
+      
+      i{
+        padding: 4px;
+        min-width: 30px;
+        text-align: center;
+        color: #f04896;
+      }
+      
+      
+      h1{
+        color: #f90b6d;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        margin: 12px 0 16px;
+        font-size: 28px;
+        line-height: 34px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h1:after{
+        position: relative;
+        left: 50%;
+        display: block;
+        content: " ";
+        width: 200px;
+        height: 3px;
+        transform: skew(-12deg) translate(-50%);
+        background: radial-gradient(#f673aa, #fff);
+      }
+      
+      
+       
+
+    

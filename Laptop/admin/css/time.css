@@ -1,0 +1,103 @@
+.main_container {
+    margin-left: 18%;
+    padding: 0;
+    margin-top: 0.5pc;
+}
+
+.main_containers {
+    margin-left: 18%;
+    padding: 0;
+    margin-top: 1pc;
+}
+
+.col-sm-10, .col-sm-11 {
+    margin-left: -11pc;
+    padding: 1pc;
+}
+
+.col-sm-10 input {
+    height: 2.5pc;
+    width: 25pc;
+    margin: 0 auto;
+}
+
+
+.col-sm-11 textarea {
+    height: 2.5pc;
+    width: 25pc;
+    height: 25pc;
+    margin: 0 auto;
+}
+
+label.col-sm-2.col-form-label {
+    margin-top: -1pc;
+}
+
+.col-sm-10 textarea {
+    width: 25pc;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+form.form {
+    /* border: 1px solid; */
+    padding: 3pc;
+    margin: 0 auto;
+    /* margin-left: auto; */
+    height: auto;
+}
+
+select {
+    height: 2.5pc;
+    width: 25pc;
+    margin: 0 auto;
+}
+
+table.table.table-striped, thead, tbody {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

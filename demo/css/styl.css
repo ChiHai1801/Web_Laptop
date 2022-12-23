@@ -1,0 +1,252 @@
+    body {
+        margin: 0;
+        padding: 0;
+     }
+
+     .wrapper{
+        border: 1px solid #000;
+        height: auto;
+        width: 95%;
+        margin:0 auto;
+     }
+
+     /*-------trang chi tiết sản phẩm--------*/
+     .wrapper_chitiet{
+        height: auto;
+        width: 90%;
+        margin:0 auto;
+     }
+
+     
+     .hinhanh_sanpham{
+        float: left;
+        width: 25%;
+     }
+
+     .chitiet_sanpham{
+        float: left;
+        width: 55%;
+        margin: 0 auto;
+     }
+
+     .thongtin_sanpham{
+        float: left;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 20px;
+        margin-top: 2pc;
+     }
+
+     .thongso_sanpham{
+        margin: 0 auto;
+        float: left;
+        margin-bottom: 2pc;
+        margin-left: 2pc;
+     }
+
+     .thongso_sanpham h3{
+        margin: 0 auto;
+        margin-bottom: 1pc;
+        font-size: 25px;
+        font-weight: bold;
+     }
+     /*---------kết thúc-----------*/
+
+     /* phần giỏ hàng*/
+     input.themgiohang{
+        border: none;
+        background: brown;
+        color: #fff;
+        padding: 12px;
+        font-size: 15px;
+        cursor: pointer;
+     }
+     /*nút tăng giảm số lượng trong giỏ hàng*/
+     i.fa-solid.fa-plus {
+        font-size: 18px;
+        color: #000;
+        padding: 3px;
+    }
+    i.fa-solid.fa-plus:hover {
+        color: brown;
+    }
+
+    i.fa-solid.fa-minus{
+        font-size: 18px;
+        color: #000;
+        padding: 3px;
+    }
+
+    i.fa-solid.fa-minus:hover{
+        color: brown;
+    }
+
+    /*--------------kết thúc-------------*/
+    
+     .header{ 
+        background-image: url("../images/01.jfif");
+        background-repeat: no-repeat;
+        background-size: 100% 130px;
+        border: 1px solid #ff80ff;
+        height: 180px;
+        width: 100%;
+        
+     }
+
+    .menu{
+        border: 1px solid #1aff8c;
+        height: 50px;
+        width: 100%;
+        background:#6fff6f89 ;
+    }
+
+    ul.list_menu {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        width: 60%;
+        line-height: 27px;
+    }
+
+    ul.list_menu li {
+        float: left;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    ul.list_menu li:hover {
+        background: rgb(197, 195, 193);
+    }
+
+    ul.list_menu li a {
+        color: red;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    #main{
+        height: 400px;
+        width: 100%;
+    }
+
+    /* nút chuyển trang*/
+    .list_trang{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    ul.list_trang li{
+        float: left;
+        padding: 5px 13px;
+        margin: 5px;
+        background: burlywood;
+        display: block;
+    }
+
+    ul.list_trang li a{
+        color: #000;
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    .sidebar{
+        border: 1px solid #b4afa2;
+        height: auto;
+        width: 20%;
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+    }
+
+    ul.list_sidebar {
+        padding: 0;
+        list-style: none;
+        width: 100%;
+        line-height: 27px;
+    }
+
+    ul.list_sidebar li {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    ul.list_sidebar li:hover {
+        background: rgb(155, 151, 146);
+    }
+
+    ul.list_sidebar li a {
+        color: red;
+        text-decoration: none;
+        text-align: left;
+        display: block;
+    }
+
+    .maincontent{
+        height: auto;
+        width: 78%;
+        margin-top: 5px;
+        margin-left: 5px;
+        float: right;
+    }
+
+    ul.product_list {
+        
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+    }
+
+    ul.product_list li img {
+        height: 200px;
+    }
+
+    ul.product_list li {
+        width: 18%;
+        border: 1px solid #ddd;
+        background: aliceblue;
+        margin: 7px;
+        float: left;
+        height: auto;
+    }
+
+    ul.product_list li img {
+        width: 100%;
+    }
+
+    ul.product_list li a {
+        text-decoration: none;
+    }
+
+    p.title_product {
+        text-align: center;
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    p.price_product {
+        text-align: center;
+        color: chocolate;
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .clear{
+        clear: both;
+    }
+
+    /* phần footer*/
+    .footer{
+        border: 1px solid #ff1a8c;
+        height: 150px;
+        width: 100%;
+        background:#90ba93 ;
+    }
+
+    p.footer_copyright {
+        text-align: center;
+        color: red;
+    }

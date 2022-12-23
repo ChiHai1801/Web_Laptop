@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    color: #111;
+}
+.main {
+    /* width: 960px; */
+    background-color: antiquewhite;
+    margin: 0 410px;
+}
+
+.main ul.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main ul.main-menu > li {
+    float: none;
+    height: 50px;
+    position: relative;
+}
+
+.main ul.main-menu > li > a {
+    float: none;
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #333;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.main ul.main-menu > li > a:hover {
+    color: rgb(240, 187, 89);
+}
+
+.main ul.main-menu > li:hover ul.main-menusecond{
+    display: block;
+
+}
+
+.main ul.main-menu > li > ul.main-menusecond {
+    width: 250px;
+    background-color: #fff;
+    list-style-type: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: none;
+}
+
+.main ul.main-menu > li > ul.main-menusecond > li{
+    position: relative;
+    width: 250px;
+}
+
+.main ul.main-menu > li > ul.main-menusecond > li a {
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #333;
+    text-indent: 10px;
+    border-bottom: 2px solid gray;
+    transition: all 0.3s ease;
+}   
+
+.main ul.main-menu > li > ul.main-menusecond > li a:hover {
+    color: rgb(240, 187, 89);
+    text-indent: 20px;
+}
+
+.main ul.main-menu > li > ul.main-menusecond > li:hover ul.main-menuthird {
+    display: block;
+}
+
+.main ul.main-menu > li > ul.main-menusecond > li ul.main-menuthird {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: 250px;
+    display: none;
+    background-color: #fff;
+}
+

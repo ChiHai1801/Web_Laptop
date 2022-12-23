@@ -1,0 +1,55 @@
+
+.container {
+    border: 2px solid;
+    width: 21pc;
+    height: auto;
+    background: rgba(167, 158, 158, 0.751);
+    padding: 2pc;
+    margin-left: 35pc;
+    /* margin-top: 2pc; */
+    margin: 0 auto;
+}
+
+
+.form-log.row {
+    margin-top: 1pc;
+}
+
+input.btn.btn-primary {
+    margin-top: 2pc;
+    margin-left: 8pc;
+} 
+
+/* .col-sm-10 { */
+    /* margin-left: 1.25pc;  */
+/* } */
+
+.col-sm-10 input {
+    width: 20pc;
+    height: 2pc;
+    margin: 0.5pc;
+}
+
+a.form-log {
+    margin-left: 2pc;
+}
+
+.container h3 {
+    font-size: x-large;
+    margin-left: 6pc;
+    margin-top: -1pc;
+    padding: 0.5px 0.5pc;
+}
+
+.alert.alert-primary {
+    margin-left: 35pc;
+    border: 1px solid;
+    width: 300px;
+    height: auto;
+    background: aqua;
+} 
+
+ .alert.alert-primary a {
+    font-size: large;
+    margin-left: 5pc;
+}
